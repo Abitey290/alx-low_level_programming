@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "holberton.h"
-/** 
- * This program print out the word Holberton.
- * Return 0
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: 0 (Sucess)
  */
 int main(void)
 {
