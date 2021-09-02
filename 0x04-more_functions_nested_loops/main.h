@@ -9,4 +9,6 @@ int _isupper(int c);
 /* _isdigit.c*/
 int _isdigit(int c);
 
+/*2-mal.c*/
+int mul(int a, int b);
 #endif
