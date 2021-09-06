@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int _putchar(char);
+
 /*0-reset_to_98.c*/
  void reset_to_98(int *n);
 
@@ -9,4 +11,7 @@
 
  /*2-strlen.c*/
  int _strlen(char *s);
+
+ /*3-puts.c*/
+ void _puts(char *str);
 #endif
