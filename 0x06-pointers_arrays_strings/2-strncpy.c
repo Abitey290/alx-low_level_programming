@@ -1,9 +1,9 @@
 /*
  * File: 2-strncpy.c
- * Auth: Brennan D Baraban
+ * Auth: Isaac Abitey
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strncpy - Copies at most an inputted number
