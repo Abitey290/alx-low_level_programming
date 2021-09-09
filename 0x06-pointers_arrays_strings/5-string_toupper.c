@@ -1,9 +1,9 @@
 /*
  * File: 5-string_toupper.c
- * Auth: Brennan D Baraban
+ * Auth: Isaac Abitey
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * string_toupper - Changes all lowercase letters
