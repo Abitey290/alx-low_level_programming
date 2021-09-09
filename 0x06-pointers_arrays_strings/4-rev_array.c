@@ -1,9 +1,9 @@
 /*
  * File: 4-rev_array.c
- * Auth: Brennan D Baraban
+ * Auth: Isaac Abitey
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * reverse_array - Reverses the content of an array of integers.
@@ -12,12 +12,12 @@
  */
 void reverse_array(int *a, int n)
 {
-	int tmp, index;
+	int t, x;
 
-	for (index = n - 1; index >= n / 2; index--)
+	for (x = n - 1; x >= n / 2; x--)
 	{
-		tmp = a[n - 1 - index];
-		a[n - 1 - index] = a[index];
-		a[index] = tmp;
+		t = a[n - 1 - x];
+		a[n - 1 - x] = a[x];
+		a[x] = t;
 	}
 }
