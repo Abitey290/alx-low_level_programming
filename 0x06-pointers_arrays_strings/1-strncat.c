@@ -1,9 +1,9 @@
 /*
  * File: 1-strncat.c
- * Auth: Brennan D Baraban
+ * Auth: Isaac Abitey
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strncat - Concatenates two strings using at most
